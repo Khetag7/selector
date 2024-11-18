@@ -1,0 +1,63 @@
+.All {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.btn__vibor {
+	color: black;
+	background-color: #ded6a6;
+	font-size: 30px;
+	padding: 30px 50px;
+	text-align: center;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+.btn__vibor:hover {
+	background-color: #eda239;
+	transition: 0.3;
+	cursor: pointer;
+}
+.select__btns {
+	display: none;
+}
+.one__btn {
+	color: blue;
+	font-size: 30px;
+	padding: 30px 50px;
+	background-color: #bbeced;
+	text-align: center;
+	border-radius: 15px;
+}
+.one__btn:hover {
+	background-color: rgb(94, 123, 255);
+	transition: 0.3;
+}
+.two__btn {
+	color: green;
+	font-size: 30px;
+	padding: 30px 50px;
+	background-color: #bbeced;
+	text-align: center;
+	border-radius: 15px;
+}
+.two__btn:hover {
+	background-color: lightgreen;
+	transition: 0.3;
+}
+.three__btn {
+	color: red;
+	font-size: 30px;
+	padding: 30px 50px;
+	background-color: #bbeced;
+	text-align: center;
+	border-radius: 15px;
+}
+.three__btn:hover {
+	background-color: lightcoral;
+	transition: 0.3;
+}
+._selbtns.active {
+	display: flex;
+	gap: 100px;
+}
